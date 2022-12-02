@@ -22,6 +22,7 @@ CREATE TABLE Collections (
     name VARCHAR(100) NOT NULL,
     release_year DATE NOT NULL CHECK(release_year <= now())
 );
+
 -- Create many - many relations 
 CREATE TABLE GenresSingers (
     genre_id INT REFERENCES Genres(genre_id),
