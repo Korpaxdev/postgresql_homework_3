@@ -25,7 +25,8 @@ VALUES ('Linkin park'),
 	('Skillet');
 
 -- GENRES - SINGERS 
-INSERT INTO genressingers (genre_id, singer_id) -- Linkin park
+INSERT INTO genressingers (genre_id, singer_id) 
+	-- Linkin park
 VALUES (1, 1),
 	(2, 1),
 	(3, 1),
@@ -58,7 +59,8 @@ VALUES (1, 1),
 	(10, 8);
 
 -- ALBUMS
-INSERT INTO albums ("name", release_year) -- Linkin park 
+INSERT INTO albums ("name", release_year) 
+	-- Linkin park 
 VALUES ('Live in Texas', '2003-11-18'),
 	(
 		'Road to Revolution: Live at Milton Keynes',
@@ -88,7 +90,8 @@ VALUES ('Live in Texas', '2003-11-18'),
 	('Comatose', '2006-10-03');
 
 -- SINGERS - ALBUMS 
-INSERT INTO singersalbums (singer_id, album_id) -- Linkin park
+INSERT INTO singersalbums (singer_id, album_id) 
+	-- Linkin park
 VALUES (1, 1),
 	(1, 2),
 	-- Slipknot 
@@ -115,7 +118,8 @@ VALUES (1, 1),
 	(8, 17);
 
 -- TRACKS
-INSERT INTO tracks ("name", duration, album_id) -- Linkin park 
+INSERT INTO tracks ("name", duration, album_id) 
+	-- Linkin park 
 VALUES ('Don''t Stay', 188, 1),
 	('One Step Closer', 176, 2),
 	-- Slipknot 
