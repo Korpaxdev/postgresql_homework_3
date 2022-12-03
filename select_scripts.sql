@@ -1,11 +1,11 @@
 -- albums with year of release = 2018
-SELECT a."name",
-    a.release_year
+SELECT "name",
+    release_year
 FROM albums a
 WHERE date_part('year', a.release_year) = 2018;
 
 -- track with max duration 
-SELECT name,
+SELECT "name",
     duration
 FROM tracks t
 WHERE duration = (
